@@ -19,7 +19,7 @@
 # Settings to use, possible settings are listed in the documentation (section "Customizing the extraction").
 setting:
   geometryTolerance: 1e-5
-  binWidth: 0.01
+  binWidth: 5
   label: 1
   interpolator: 'sitkBSpline' # This is an enumerated value, here None is not allowed
   resampledPixelSpacing: # This disables resampling, as it is interpreted as None, to enable it, specify spacing in x, y, z as [x, y , z]
