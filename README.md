@@ -6,16 +6,16 @@ This repository contains a structured pipeline for prostate cancer lesion charac
 
 ## 📁 Project Structure
 
-- **1_preprocessing_resampling.py**  
+- **Preprocessing.ipynb**  
   Handles image resampling and preprocessing steps (e.g., intensity normalization, spatial alignment).
 
-- **2_feature_extraction_selection.py**  
+- **feature_extraction.ipynb**  
   Extracts radiomic features from resampled MRI images, generates clinical guideline-based textual prompts, selects relevant features, and rounds them for stability and interpretability.
 
-- **3_embeddings_ml_evaluation.py**  
+- **Embedding_extraction.ipynb**  
   Converts text prompts into embeddings using pretrained language models (e.g., BioBERT), trains machine learning models (e.g., Logistic Regression), and evaluates performance using metrics such as accuracy, AUC, and balanced accuracy.
 
-- **4_plot_generation.py**  
+- **plotting.ipynb**  
   Generates visualizations (e.g., performance bar plots with confidence intervals) for comparative model analysis.
 
 ---
